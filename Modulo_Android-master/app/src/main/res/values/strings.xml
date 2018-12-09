@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Conversor Monetário</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_resultado">TelaResultado</string>
+    <string name="title_activity_act_placar">actPlacar</string>
+    <string name="title_activity_act_pesos">actPesos</string>
+    <string name="title_activity_act_lista_basica">actListaBasica</string>
+    <string name="title_activity_act_lista_customizada">actListaCustomizada</string>
+    <string name="title_activity_act_lista_garotas">Garotas</string>
+    <string name="title_activity_act_detail_garotas">actDetailGarotas</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="code200dev.com.appaula01_cotacao">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TelaResultado"
+            android:label="@string/title_activity_tela_resultado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actPlacar"
+            android:label="@string/title_activity_act_placar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actPesos"
+            android:label="@string/title_activity_act_pesos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actListaBasica"
+            android:label="@string/title_activity_act_lista_basica"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actListaCustomizada"
+            android:label="@string/title_activity_act_lista_customizada"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actListaGarotas"
+            android:label="@string/title_activity_act_lista_garotas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actDetailGarotas"
+            android:label="@string/title_activity_act_detail_garotas"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
